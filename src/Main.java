@@ -22,5 +22,49 @@ public class Main {
         }
         // Отступ для визуального разделения задач
         System.out.println("");
+
+        // Задача 4
+        for (int i = 10; i >= -10; i--) {
+            System.out.println(i);
+        }
+        // Отступ для визуального разделения задач
+        System.out.println("");
+
+        // Задача 5
+        for (int i = 1904; i <= 2096; i = i + 4) {
+            System.out.println(i);
+        }
+        // Отступ для визуального разделения задач
+        System.out.println("");
+
+        // Задача 6
+        for (int i = 7; i <= 98; i = i + 7) {
+            System.out.println(i);
+        }
+        // Отступ для визуального разделения задач
+        System.out.println("");
+
+        // Задача 7
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.println(i);
+        }
+        // Отступ для визуального разделения задач
+        System.out.println("");
+
+        // Задача 8
+        for (int i = 1; i <= 12; i++) {
+            System.out.println(29_000*i);
+        }
+        // Отступ для визуального разделения задач
+        System.out.println("");
+
+        // Задача 9
+        int money = 29_000
+        for (int i = 1; i <= 12; i++) {
+            money = money * 1.12;
+            System.out.println(29_000*i);
+        }
+        // Отступ для визуального разделения задач
+        System.out.println("");
     }
 }
