@@ -59,10 +59,17 @@ public class Main {
         System.out.println("");
 
         // Задача 9
-        int money = 29_000
+        double money = 29_000;
         for (int i = 1; i <= 12; i++) {
             money = money * 1.12;
-            System.out.println(29_000*i);
+            System.out.println(money);
+        }
+        // Отступ для визуального разделения задач
+        System.out.println("");
+
+        // Задача 10
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i*2);
         }
         // Отступ для визуального разделения задач
         System.out.println("");
