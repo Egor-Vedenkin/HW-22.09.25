@@ -61,10 +61,12 @@ public class Main {
         System.out.println("");
 
         // Задача 9
-        double money = 29_000;
-        for (int i = 1; i <= 12; i++) {
-            money = Math.round(money * 1.01 * 100D) / 100D;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + money + " рублей");
+        int monthlySavingsOne = 29000;
+        double totalSavingsOne = 0;
+        for (int month = 1; month <= 12; month++) {
+            totalSavingsOne = totalSavingsOne * 1.01;
+            totalSavingsOne += monthlySavingsOne;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + totalSavingsOne + " рублей");
         }
         // Отступ для визуального разделения задач
         System.out.println("");
